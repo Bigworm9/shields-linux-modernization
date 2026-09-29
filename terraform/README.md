@@ -14,6 +14,8 @@ All infrastructure is provisioned and managed using Terraform.
 
 The modernization architecture follows this traffic and automation flow:
 
+![AWS Linux Modernization and Event-Driven Automation Architecture](../AWS%20linux%20Mod%20and%20event%20driven%20automation%20archectecture.png)
+
 ### Application Traffic
 
 Internet → Application Load Balancer → Target Group → EC2 Linux Application (Port 8080)
